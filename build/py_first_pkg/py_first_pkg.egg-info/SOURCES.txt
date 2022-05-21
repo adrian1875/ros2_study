@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/hello_ros.launch.py
+py_first_pkg/__init__.py
+py_first_pkg/hello_ros.py
+py_first_pkg.egg-info/PKG-INFO
+py_first_pkg.egg-info/SOURCES.txt
+py_first_pkg.egg-info/dependency_links.txt
+py_first_pkg.egg-info/entry_points.txt
+py_first_pkg.egg-info/requires.txt
+py_first_pkg.egg-info/top_level.txt
+py_first_pkg.egg-info/zip-safe
+resource/py_first_pkg

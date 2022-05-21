@@ -1,0 +1,35 @@
+[0.069s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg -- -j6 -l6
+[0.580s] [ 28%] Built target topic_pub_oop_node
+[0.582s] [ 28%] Built target laser_sub_node
+[0.627s] [ 42%] Built target parking_node
+[0.628s] [ 57%] Built target topic_pub_node
+[0.638s] [ 71%] Built target cmd_vel_pub_node
+[0.646s] [ 85%] Built target topic_sub_oop_node
+[0.809s] [100%] Built target topic_sub_node
+[0.878s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg -- -j6 -l6
+[1.139s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg
+[1.186s] -- Install configuration: ""
+[1.189s] -- Execute custom install script
+[1.193s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/cmd_vel_pub_node
+[1.197s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/laser_sub_node
+[1.200s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/parking_node
+[1.204s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_node
+[1.208s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_oop_node
+[1.212s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_node
+[1.215s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_oop_node
+[1.216s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_topic_pkg
+[1.218s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_topic_pkg
+[1.220s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.sh
+[1.222s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.dsv
+[1.224s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.sh
+[1.228s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.dsv
+[1.232s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.bash
+[1.233s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.sh
+[1.234s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.zsh
+[1.236s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.dsv
+[1.237s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv
+[1.287s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/packages/cpp_topic_pkg
+[1.289s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig.cmake
+[1.290s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig-version.cmake
+[1.293s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.xml
+[1.305s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg

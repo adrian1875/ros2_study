@@ -1,0 +1,35 @@
+[2.323s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/py_action_pkg': PYTHONPATH=/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg --editable --build-directory /home/ubuntu/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data --install-dir /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg
+[3.577s] running develop
+[4.506s] running egg_info
+[4.507s] creating py_action_pkg.egg-info
+[4.508s] writing py_action_pkg.egg-info/PKG-INFO
+[4.508s] writing dependency_links to py_action_pkg.egg-info/dependency_links.txt
+[4.509s] writing entry points to py_action_pkg.egg-info/entry_points.txt
+[4.509s] writing requirements to py_action_pkg.egg-info/requires.txt
+[4.510s] writing top-level names to py_action_pkg.egg-info/top_level.txt
+[4.511s] writing manifest file 'py_action_pkg.egg-info/SOURCES.txt'
+[4.698s] reading manifest file 'py_action_pkg.egg-info/SOURCES.txt'
+[4.714s] writing manifest file 'py_action_pkg.egg-info/SOURCES.txt'
+[5.001s] running build_ext
+[5.002s] Creating /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/site.py
+[5.010s] Creating /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py-action-pkg.egg-link (link to .)
+[5.016s] Installing fibonacci_action_client script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.017s] Installing fibonacci_action_client_cancel script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.018s] Installing fibonacci_action_server script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.019s] Installing fibonacci_action_server_cancel script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.020s] Installing img_subscriber_node script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.020s] Installing maze_action_client script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.021s] Installing maze_action_server script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.021s] Installing odom_sub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.022s] Installing robot_controller script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[5.022s] 
+[5.023s] Installed /home/ubuntu/gcamp_ros2_ws/build/py_action_pkg
+[5.024s] running install_data
+[5.024s] creating /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/share/ament_index
+[5.031s] creating /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/share/ament_index/resource_index
+[5.031s] creating /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/share/ament_index/resource_index/packages
+[5.031s] copying resource/py_action_pkg -> /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/share/ament_index/resource_index/packages
+[5.032s] copying package.xml -> /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg
+[5.032s] creating /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/launch
+[5.033s] copying launch/maze_action_srv.launch.py -> /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/launch
+[5.177s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/py_action_pkg' returned '0': PYTHONPATH=/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg --editable --build-directory /home/ubuntu/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data --install-dir /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg

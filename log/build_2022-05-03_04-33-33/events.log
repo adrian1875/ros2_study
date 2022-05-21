@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.003212] (-) JobUnselected: {'identifier': 'cpp_action_pkg'}
+[0.003300] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.003445] (-) JobUnselected: {'identifier': 'cpp_param_pkg'}
+[0.004268] (-) JobUnselected: {'identifier': 'cpp_service_pkg'}
+[0.004342] (-) JobUnselected: {'identifier': 'cpp_service_tutorial'}
+[0.004396] (-) JobUnselected: {'identifier': 'cpp_topic_pkg'}
+[0.004461] (-) JobUnselected: {'identifier': 'gcamp_gazebo'}
+[0.004513] (-) JobUnselected: {'identifier': 'py_action_pkg'}
+[0.004588] (-) JobUnselected: {'identifier': 'py_first_pkg'}
+[0.004744] (-) JobUnselected: {'identifier': 'py_service_pkg'}
+[0.004797] (-) JobUnselected: {'identifier': 'py_topic_pkg'}
+[0.004873] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.005004] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.019640] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.020303] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces'], 'cwd': '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '8bb144b121e0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:341bfb20-de13-474d-8cbb-f50fa2cfd77b'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.095955] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.100149] (-) TimerEvent: {}
+[0.173932] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.181859] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200352] (-) TimerEvent: {}
+[0.275489] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.276906] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300727] (-) TimerEvent: {}
+[0.361354] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.376492] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.376859] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.379826] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.401232] (-) TimerEvent: {}
+[0.468026] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.469658] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501555] (-) TimerEvent: {}
+[0.566790] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.582551] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.583258] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.586053] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.601934] (-) TimerEvent: {}
+[0.618768] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.619011] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.702553] (-) TimerEvent: {}
+[0.803388] (-) TimerEvent: {}
+[0.805427] (custom_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.842365] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.850301] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.860003] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.903869] (-) TimerEvent: {}
+[1.004405] (-) TimerEvent: {}
+[1.009439] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.050863] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.104938] (-) TimerEvent: {}
+[1.160228] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205375] (-) TimerEvent: {}
+[1.223903] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.305893] (-) TimerEvent: {}
+[1.406908] (-) TimerEvent: {}
+[1.507770] (-) TimerEvent: {}
+[1.590767] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.608266] (-) TimerEvent: {}
+[1.709000] (-) TimerEvent: {}
+[1.784430] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.809210] (-) TimerEvent: {}
+[1.821717] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.852541] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.854259] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.885036] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.885325] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.885458] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.885581] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.909531] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.909732] (-) TimerEvent: {}
+[1.986135] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.010191] (-) TimerEvent: {}
+[2.013294] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.016055] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.017638] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.026754] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.098863] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.102672] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/gcamp_ros2_ws/build/custom_interfaces\n'}
+[2.110444] (-) TimerEvent: {}
+[2.112063] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.116747] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[2.116860] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '8bb144b121e0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:341bfb20-de13-474d-8cbb-f50fa2cfd77b'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy')]), 'shell': False}
+[2.184970] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__cpp\x1b[0m\n'}
+[2.185475] (custom_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.202399] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.210694] (-) TimerEvent: {}
+[2.311465] (-) TimerEvent: {}
+[2.412226] (-) TimerEvent: {}
+[2.513034] (-) TimerEvent: {}
+[2.613774] (-) TimerEvent: {}
+[2.714423] (-) TimerEvent: {}
+[2.815150] (-) TimerEvent: {}
+[2.915657] (-) TimerEvent: {}
+[3.016508] (-) TimerEvent: {}
+[3.116980] (-) TimerEvent: {}
+[3.217651] (-) TimerEvent: {}
+[3.251512] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.260912] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target custom_interfaces__cpp\n'}
+[3.288041] (custom_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.288538] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[3.289803] (custom_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[3.290097] (custom_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.292317] (custom_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.292709] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.294798] (custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/turning_control__functions.c.o\x1b[0m\n'}
+[3.303358] (custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/maze__functions.c.o\x1b[0m\n'}
+[3.317876] (-) TimerEvent: {}
+[3.418555] (-) TimerEvent: {}
+[3.441596] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.496754] (custom_interfaces) StdoutLine: {'line': b'[ 17%] Built target custom_interfaces__rosidl_generator_c\n'}
+[3.516271] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.516666] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.518797] (-) TimerEvent: {}
+[3.619625] (-) TimerEvent: {}
+[3.720183] (-) TimerEvent: {}
+[3.820847] (-) TimerEvent: {}
+[3.921764] (-) TimerEvent: {}
+[4.022290] (-) TimerEvent: {}
+[4.098840] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.122598] (-) TimerEvent: {}
+[4.128799] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.129139] (custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.129928] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/turning_control__type_support.cpp.o\x1b[0m\n'}
+[4.134863] (custom_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.136494] (custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/maze__type_support.cpp.o\x1b[0m\n'}
+[4.222864] (-) TimerEvent: {}
+[4.277617] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.322435] (custom_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.325632] (-) TimerEvent: {}
+[4.327533] (custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.328147] (custom_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.328443] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.330374] (custom_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/turning_control__type_support.cpp.o\x1b[0m\n'}
+[4.377992] (custom_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[4.411230] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/maze__type_support.cpp.o\x1b[0m\n'}
+[4.412975] (custom_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.426013] (-) TimerEvent: {}
+[4.440762] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/turning_control__type_support.cpp.o\x1b[0m\n'}
+[4.453235] (custom_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.526566] (-) TimerEvent: {}
+[4.542119] (custom_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.626883] (-) TimerEvent: {}
+[4.654721] (custom_interfaces) StdoutLine: {'line': b'[ 44%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[4.691432] (custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/maze__type_support.cpp.o\x1b[0m\n'}
+[4.727671] (-) TimerEvent: {}
+[4.829834] (-) TimerEvent: {}
+[4.930524] (-) TimerEvent: {}
+[4.931513] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.932934] (custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.952772] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.969412] (custom_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.970181] (custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.976418] (custom_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/turning_control__type_support.c.o\x1b[0m\n'}
+[4.982730] (custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[4.985935] (custom_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/maze__type_support.c.o\x1b[0m\n'}
+[5.031598] (-) TimerEvent: {}
+[5.043951] (custom_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[5.066532] (custom_interfaces) StdoutLine: {'line': b'[ 57%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[5.074874] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.076798] (custom_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.078724] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/turning_control__type_support.cpp.o\x1b[0m\n'}
+[5.089512] (custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/maze__type_support.cpp.o\x1b[0m\n'}
+[5.118158] (custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.131888] (-) TimerEvent: {}
+[5.201838] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.232411] (-) TimerEvent: {}
+[5.333010] (-) TimerEvent: {}
+[5.433774] (-) TimerEvent: {}
+[5.467197] (custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.534357] (-) TimerEvent: {}
+[5.610993] (custom_interfaces) StdoutLine: {'line': b'[ 66%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.634759] (-) TimerEvent: {}
+[5.772274] (-) TimerEvent: {}
+[5.873058] (-) TimerEvent: {}
+[5.956862] (custom_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.973307] (-) TimerEvent: {}
+[6.065643] (custom_interfaces) StdoutLine: {'line': b'[ 68%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.073589] (-) TimerEvent: {}
+[6.083131] (custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.174040] (-) TimerEvent: {}
+[6.274771] (-) TimerEvent: {}
+[6.375426] (-) TimerEvent: {}
+[6.476180] (-) TimerEvent: {}
+[6.576644] (-) TimerEvent: {}
+[6.677295] (-) TimerEvent: {}
+[6.777986] (-) TimerEvent: {}
+[6.878543] (-) TimerEvent: {}
+[6.958259] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.979053] (-) TimerEvent: {}
+[7.001301] (custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/turning_control__type_support_c.cpp.o\x1b[0m\n'}
+[7.002212] (custom_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[7.002860] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[7.005565] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/maze__type_support_c.cpp.o\x1b[0m\n'}
+[7.007061] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[7.079399] (-) TimerEvent: {}
+[7.180198] (-) TimerEvent: {}
+[7.280846] (-) TimerEvent: {}
+[7.381851] (-) TimerEvent: {}
+[7.482378] (-) TimerEvent: {}
+[7.561917] (custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.582642] (-) TimerEvent: {}
+[7.659527] (custom_interfaces) StdoutLine: {'line': b'[ 79%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.673868] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces\x1b[0m\n'}
+[7.683023] (-) TimerEvent: {}
+[7.690321] (custom_interfaces) StdoutLine: {'line': b'[ 79%] Built target custom_interfaces\n'}
+[7.705784] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__py\x1b[0m\n'}
+[7.723027] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.783415] (-) TimerEvent: {}
+[7.883850] (-) TimerEvent: {}
+[7.984577] (-) TimerEvent: {}
+[8.085187] (-) TimerEvent: {}
+[8.186174] (-) TimerEvent: {}
+[8.286580] (-) TimerEvent: {}
+[8.387025] (-) TimerEvent: {}
+[8.487754] (-) TimerEvent: {}
+[8.588370] (-) TimerEvent: {}
+[8.689153] (-) TimerEvent: {}
+[8.789877] (-) TimerEvent: {}
+[8.890819] (-) TimerEvent: {}
+[8.991254] (-) TimerEvent: {}
+[9.091871] (-) TimerEvent: {}
+[9.192361] (-) TimerEvent: {}
+[9.292858] (-) TimerEvent: {}
+[9.393294] (-) TimerEvent: {}
+[9.493824] (-) TimerEvent: {}
+[9.594224] (-) TimerEvent: {}
+[9.694709] (-) TimerEvent: {}
+[9.795417] (-) TimerEvent: {}
+[9.895906] (-) TimerEvent: {}
+[9.996385] (-) TimerEvent: {}
+[10.097032] (-) TimerEvent: {}
+[10.104472] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__py\n'}
+[10.121600] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__python\x1b[0m\n'}
+[10.165821] (custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[10.166101] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_turning_control_s.c.o\x1b[0m\n'}
+[10.166241] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[10.167524] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[10.169545] (custom_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/action/_maze_s.c.o\x1b[0m\n'}
+[10.197444] (-) TimerEvent: {}
+[10.298146] (-) TimerEvent: {}
+[10.358953] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so\x1b[0m\n'}
+[10.398389] (-) TimerEvent: {}
+[10.431711] (custom_interfaces) StdoutLine: {'line': b'[ 90%] Built target custom_interfaces__python\n'}
+[10.451542] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.451831] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.456816] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.492568] (custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.497425] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.498416] (custom_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.498669] (-) TimerEvent: {}
+[10.599188] (-) TimerEvent: {}
+[10.700197] (-) TimerEvent: {}
+[10.710187] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.715452] (custom_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.718021] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.763997] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.768858] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.800447] (-) TimerEvent: {}
+[10.819276] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.838648] (custom_interfaces) CommandEnded: {'returncode': 0}
+[10.900756] (-) TimerEvent: {}
+[11.001637] (-) TimerEvent: {}
+[11.054935] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[11.067587] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces'], 'cwd': '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '8bb144b121e0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:341bfb20-de13-474d-8cbb-f50fa2cfd77b'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/gcamp_ros2_ws/build/custom_interfaces'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy')]), 'shell': False}
+[11.078631] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.079543] (custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.080056] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[11.093247] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__functions.h\n'}
+[11.102019] (-) TimerEvent: {}
+[11.104081] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__struct.h\n'}
+[11.114558] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__type_support.h\n'}
+[11.128002] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__functions.h\n'}
+[11.142004] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__struct.h\n'}
+[11.157520] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__type_support.h\n'}
+[11.171955] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/fibonacci.h\n'}
+[11.187852] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/maze.h\n'}
+[11.202300] (-) TimerEvent: {}
+[11.204648] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__functions.h\n'}
+[11.220968] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__struct.h\n'}
+[11.237691] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__type_support.h\n'}
+[11.254282] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/num.h\n'}
+[11.270565] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.287575] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/add_three_ints.h\n'}
+[11.302772] (-) TimerEvent: {}
+[11.303781] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[11.319180] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[11.337051] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[11.354569] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__functions.h\n'}
+[11.371324] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__struct.h\n'}
+[11.388714] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__type_support.h\n'}
+[11.403154] (-) TimerEvent: {}
+[11.405064] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/turning_control.h\n'}
+[11.422347] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[11.439380] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[11.456240] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[11.474966] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__rosidl_typesupport_fastrtps_c.h\n'}
+[11.491133] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[11.503491] (-) TimerEvent: {}
+[11.507457] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.523046] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[11.537002] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__rosidl_typesupport_fastrtps_c.h\n'}
+[11.552496] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.568606] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.582126] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.594853] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.603845] (-) TimerEvent: {}
+[11.606907] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.618110] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.628381] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.639334] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.651931] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[11.666065] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__rosidl_typesupport_introspection_c.h\n'}
+[11.679935] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[11.695480] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.704319] (-) TimerEvent: {}
+[11.711129] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[11.726984] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__rosidl_typesupport_introspection_c.h\n'}
+[11.743242] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[11.758427] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[11.774533] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[11.789547] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__builder.hpp\n'}
+[11.804664] (-) TimerEvent: {}
+[11.806312] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__struct.hpp\n'}
+[11.823001] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__traits.hpp\n'}
+[11.838929] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/fibonacci.hpp\n'}
+[11.852980] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/maze.hpp\n'}
+[11.865998] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__builder.hpp\n'}
+[11.880314] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__struct.hpp\n'}
+[11.895109] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__traits.hpp\n'}
+[11.904997] (-) TimerEvent: {}
+[11.908887] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/num.hpp\n'}
+[11.922726] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/add_three_ints.hpp\n'}
+[11.935980] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[11.949060] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[11.962688] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[11.974749] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__builder.hpp\n'}
+[11.986732] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__struct.hpp\n'}
+[12.000170] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__traits.hpp\n'}
+[12.005471] (-) TimerEvent: {}
+[12.013271] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/turning_control.hpp\n'}
+[12.028199] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.042574] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/maze__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.057426] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.071885] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.085182] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/turning_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.098504] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[12.105836] (-) TimerEvent: {}
+[12.111335] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[12.122735] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py\n'}
+[12.136295] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/__init__.py\n'}
+[12.150667] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_num.py\n'}
+[12.165134] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py\n'}
+[12.178588] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_add_three_ints.py\n'}
+[12.191637] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_turning_control.py\n'}
+[12.204595] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action/__init__.py\n'}
+[12.206242] (-) TimerEvent: {}
+[12.218886] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action/_fibonacci.py\n'}
+[12.232692] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action/_maze.py\n'}
+[12.247322] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.261048] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.274002] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.286836] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so\n'}
+[12.298392] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Num.idl\n'}
+[12.306479] (-) TimerEvent: {}
+[12.309067] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddThreeInts.idl\n'}
+[12.320271] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurningControl.idl\n'}
+[12.333569] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Fibonacci.idl\n'}
+[12.347340] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Maze.idl\n'}
+[12.361370] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Num.msg\n'}
+[12.374998] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddThreeInts.srv\n'}
+[12.388793] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddThreeInts_Request.msg\n'}
+[12.403577] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/AddThreeInts_Response.msg\n'}
+[12.406829] (-) TimerEvent: {}
+[12.417166] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurningControl.srv\n'}
+[12.430349] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurningControl_Request.msg\n'}
+[12.443023] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurningControl_Response.msg\n'}
+[12.454029] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Fibonacci.action\n'}
+[12.464453] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Maze.action\n'}
+[12.475122] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[12.485856] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[12.496465] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[12.507174] (-) TimerEvent: {}
+[12.509124] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.523876] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[12.538254] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[12.552283] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[12.565893] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[12.579002] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[12.591731] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[12.607523] (-) TimerEvent: {}
+[12.607836] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[12.622351] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[12.638766] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.654046] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.668974] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.682974] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.696339] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.707893] (-) TimerEvent: {}
+[12.709444] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.724219] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.738435] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[12.753447] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[12.767700] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[12.781218] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[12.781773] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.782013] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.782644] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.782917] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[12.783450] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.783710] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.784352] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.784637] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.785200] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.808195] (-) TimerEvent: {}
+[12.836601] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...\n"}
+[12.845448] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.846137] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.846396] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.846653] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.846885] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.847304] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.847662] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.847955] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.848284] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.848566] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.848871] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.856157] (custom_interfaces) CommandEnded: {'returncode': 0}
+[12.908669] (-) TimerEvent: {}
+[13.016771] (-) TimerEvent: {}
+[13.117694] (-) TimerEvent: {}
+[13.135991] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[13.137813] (-) EventReactorShutdown: {}

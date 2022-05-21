@@ -1,0 +1,55 @@
+[0.038s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo -- -j6 -l6
+[0.151s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo -- -j6 -l6
+[0.243s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo
+[0.261s] -- Install configuration: ""
+[0.263s] -- Execute custom install script
+[0.264s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/diffbot_description.launch.py
+[0.265s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/empty_world.launch.py
+[0.266s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/first_launch.launch.py
+[0.266s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world.launch.py
+[0.266s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world_windows.launch.py
+[0.267s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/maze_world.launch.py
+[0.268s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/second_launch.launch.py
+[0.269s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skid_robot_world.launch.py
+[0.270s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skidbot_description.launch.py
+[0.271s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/spawn_entity.launch.py
+[0.271s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/test2_launch.launch.py
+[0.291s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/test_launch.launch.py
+[0.292s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/tinybot_description.launch.py
+[0.293s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/bocbot_office.world
+[0.293s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/gcamp_world.world
+[0.294s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/maze_world.world
+[0.295s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.gazebo
+[0.296s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf
+[0.297s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf.xacro
+[0.297s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/sambot.urdf
+[0.298s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.gazebo
+[0.298s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf
+[0.299s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf.xacro
+[0.299s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.gazebo
+[0.300s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf
+[0.301s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf.xacro
+[0.301s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.gazebo
+[0.302s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf
+[0.303s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf.xacro
+[0.303s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/turtlebot.sdf
+[0.305s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/description.rviz
+[0.305s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/diffbot.rviz
+[0.306s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/skidbot.rviz
+[0.307s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/tinybot.rviz
+[0.308s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/package_run_dependencies/gcamp_gazebo
+[0.309s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/parent_prefix_path/gcamp_gazebo
+[0.309s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.sh
+[0.310s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.dsv
+[0.311s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.sh
+[0.311s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.dsv
+[0.312s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.bash
+[0.313s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.sh
+[0.314s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.zsh
+[0.314s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.dsv
+[0.315s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv
+[0.344s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/packages/gcamp_gazebo
+[0.345s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig.cmake
+[0.345s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig-version.cmake
+[0.346s] -- Up-to-date symlink: /home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.xml
+[0.352s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/gcamp_ros2_ws/build/gcamp_gazebo

@@ -1,0 +1,31 @@
+[0.735s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg
+[0.994s] running develop
+[1.135s] running egg_info
+[1.135s] creating py_topic_pkg.egg-info
+[1.136s] writing py_topic_pkg.egg-info/PKG-INFO
+[1.136s] writing dependency_links to py_topic_pkg.egg-info/dependency_links.txt
+[1.136s] writing entry points to py_topic_pkg.egg-info/entry_points.txt
+[1.136s] writing requirements to py_topic_pkg.egg-info/requires.txt
+[1.136s] writing top-level names to py_topic_pkg.egg-info/top_level.txt
+[1.137s] writing manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.176s] reading manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.176s] writing manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.219s] running build_ext
+[1.219s] Creating /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/site.py
+[1.221s] Creating /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/py-topic-pkg.egg-link (link to .)
+[1.222s] Installing cmd_vel_pub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.222s] Installing endless_cmd_vel_pub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.222s] Installing laser_raw_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.223s] Installing laser_sub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.223s] Installing parking_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.223s] 
+[1.223s] Installed /home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg
+[1.223s] running install_data
+[1.224s] creating /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index
+[1.224s] creating /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index/resource_index
+[1.224s] creating /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index/resource_index/packages
+[1.224s] copying resource/py_topic_pkg -> /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index/resource_index/packages
+[1.224s] copying package.xml -> /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg
+[1.225s] creating /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/launch
+[1.225s] copying launch/cmd_vel_pub.launch.py -> /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/launch
+[1.253s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg

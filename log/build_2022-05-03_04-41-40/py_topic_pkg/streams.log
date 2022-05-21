@@ -1,0 +1,21 @@
+[2.409s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg
+[3.014s] running develop
+[3.328s] running egg_info
+[3.329s] writing py_topic_pkg.egg-info/PKG-INFO
+[3.329s] writing dependency_links to py_topic_pkg.egg-info/dependency_links.txt
+[3.330s] writing entry points to py_topic_pkg.egg-info/entry_points.txt
+[3.331s] writing requirements to py_topic_pkg.egg-info/requires.txt
+[3.331s] writing top-level names to py_topic_pkg.egg-info/top_level.txt
+[3.417s] reading manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[3.419s] writing manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[3.542s] running build_ext
+[3.543s] Creating /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/py-topic-pkg.egg-link (link to .)
+[3.545s] Installing cmd_vel_pub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.545s] Installing endless_cmd_vel_pub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.546s] Installing laser_raw_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.547s] Installing laser_sub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.547s] Installing parking_node script to /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.548s] 
+[3.548s] Installed /home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg
+[3.549s] running install_data
+[3.928s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg

@@ -1,0 +1,108 @@
+[0.074s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg
+[1.329s] -- The C compiler identification is GNU 9.4.0
+[1.330s] -- The CXX compiler identification is GNU 9.4.0
+[1.330s] -- Check for working C compiler: /usr/bin/cc
+[1.335s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.336s] -- Detecting C compiler ABI info
+[1.337s] -- Detecting C compiler ABI info - done
+[1.340s] -- Detecting C compile features
+[1.347s] -- Detecting C compile features - done
+[1.348s] -- Check for working CXX compiler: /usr/bin/c++
+[1.349s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.349s] -- Detecting CXX compiler ABI info
+[1.353s] -- Detecting CXX compiler ABI info - done
+[1.353s] -- Detecting CXX compile features
+[1.354s] -- Detecting CXX compile features - done
+[1.355s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.355s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.864s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.933s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.040s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.054s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.327s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.428s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.778s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.785s] -- Looking for pthread.h
+[3.006s] -- Looking for pthread.h - found
+[3.006s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.181s] -- Looking for pthread_create in pthreads
+[3.371s] -- Looking for pthread_create in pthreads - not found
+[3.371s] -- Looking for pthread_create in pthread
+[3.579s] -- Looking for pthread_create in pthread - found
+[3.582s] -- Found Threads: TRUE  
+[3.926s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.260s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.485s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.489s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.491s] -- Configured cppcheck include dirs: 
+[4.491s] -- Configured cppcheck exclude dirs and/or files: 
+[4.498s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.498s] -- Configured cpplint exclude dirs and/or files: 
+[4.498s] -- Added test 'lint_cmake' to check CMake code style
+[4.499s] -- Added test 'uncrustify' to check C / C++ code style
+[4.500s] -- Configured uncrustify additional arguments: 
+[4.501s] -- Added test 'xmllint' to check XML markup files
+[4.518s] -- Configuring done
+[4.610s] -- Generating done
+[4.625s] -- Build files have been written to: /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg
+[4.651s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg
+[4.660s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg -- -j12 -l12
+[4.823s] [35m[1mScanning dependencies of target laser_sub_node[0m
+[4.863s] [35m[1mScanning dependencies of target topic_pub_oop_node[0m
+[4.868s] [35m[1mScanning dependencies of target cmd_vel_pub_node[0m
+[4.887s] [35m[1mScanning dependencies of target topic_pub_node[0m
+[4.899s] [35m[1mScanning dependencies of target topic_sub_oop_node[0m
+[4.900s] [35m[1mScanning dependencies of target parking_node[0m
+[4.933s] [35m[1mScanning dependencies of target topic_sub_node[0m
+[4.977s] [  7%] [32mBuilding CXX object CMakeFiles/laser_sub_node.dir/src/laser_sub.cpp.o[0m
+[5.082s] [ 14%] [32mBuilding CXX object CMakeFiles/topic_pub_node.dir/src/topic_pub.cpp.o[0m
+[5.100s] [ 21%] [32mBuilding CXX object CMakeFiles/cmd_vel_pub_node.dir/src/cmd_vel_pub.cpp.o[0m
+[5.127s] [ 28%] [32mBuilding CXX object CMakeFiles/topic_sub_oop_node.dir/src/topic_sub_oop.cpp.o[0m
+[5.128s] [ 35%] [32mBuilding CXX object CMakeFiles/topic_pub_oop_node.dir/src/topic_pub_oop.cpp.o[0m
+[5.146s] [ 42%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[5.154s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_sub_node.dir/src/topic_sub.cpp.o[0m
+[16.005s] [ 57%] [32m[1mLinking CXX executable cmd_vel_pub_node[0m
+[16.263s] [ 64%] [32m[1mLinking CXX executable topic_pub_oop_node[0m
+[16.972s] [ 64%] Built target cmd_vel_pub_node
+[17.224s] [ 64%] Built target topic_pub_oop_node
+[19.482s] [ 71%] [32m[1mLinking CXX executable topic_pub_node[0m
+[20.354s] [ 71%] Built target topic_pub_node
+[22.659s] [ 78%] [32m[1mLinking CXX executable laser_sub_node[0m
+[22.801s] [ 85%] [32m[1mLinking CXX executable topic_sub_oop_node[0m
+[22.839s] [ 92%] [32m[1mLinking CXX executable topic_sub_node[0m
+[23.249s] [ 92%] Built target laser_sub_node
+[23.347s] [ 92%] Built target topic_sub_oop_node
+[23.400s] [ 92%] Built target topic_sub_node
+[23.855s] [100%] [32m[1mLinking CXX executable parking_node[0m
+[24.242s] [100%] Built target parking_node
+[24.277s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg -- -j12 -l12
+[24.361s] Invoking command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg
+[24.373s] -- Install configuration: ""
+[24.374s] -- Execute custom install script
+[24.375s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/cmd_vel_pub_node
+[24.389s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/laser_sub_node
+[24.405s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/parking_node
+[24.420s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_node
+[24.440s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_oop_node
+[24.451s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_node
+[24.466s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_oop_node
+[24.481s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_topic_pkg
+[24.496s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_topic_pkg
+[24.511s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.sh
+[24.526s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.dsv
+[24.540s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.sh
+[24.555s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.dsv
+[24.570s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.bash
+[24.585s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.sh
+[24.602s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.zsh
+[24.615s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.dsv
+[24.629s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv
+[24.642s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/packages/cpp_topic_pkg
+[24.655s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig.cmake
+[24.664s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig-version.cmake
+[24.675s] -- Symlinking: /home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.xml
+[24.689s] Invoked command in '/home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/gcamp_ros2_ws/build/cpp_topic_pkg
