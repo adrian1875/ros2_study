@@ -18,9 +18,12 @@
 
 // Deduction
 #include <typeinfo>
-
+// need fibonacci action type
 #include "custom_interfaces/action/fibonacci.hpp"
 #include "rclcpp/rclcpp.hpp"
+
+// if you use action, you should include 'rclcpp_action/rclcpp_action.hpp' 
+// it maybe include 'rclcpp/rclcpp.hpp'
 #include "rclcpp_action/rclcpp_action.hpp"
 
 using Fibonacci = custom_interfaces::action::Fibonacci;
@@ -89,6 +92,7 @@ public:
   }
 
   void goal_response_callback(
+      // future : response about goal_request, so goal_request에 대한 상태가 들어 있습니다 (response from server)
       std::shared_future<GoalHandleFibonacci::SharedPtr> future) {
     goal_handle = future.get();
 
@@ -98,17 +102,17 @@ public:
       RCLCPP_INFO(get_logger(), "Goal accepted by server, waiting for result");
   }
 
-  void
-  feedback_callback(GoalHandleFibonacci::SharedPtr,
+  void feedback_callback(GoalHandleFibonacci::SharedPtr,
                     const std::shared_ptr<const Fibonacci::Feedback> feedback) {
     RCLCPP_WARN(get_logger(), "Next number in sequence received: ");
-
+    // partial_sequence is std vactor
     for (auto number : feedback->partial_sequence)
       RCLCPP_INFO(get_logger(), "%d", number);
   }
 
   void result_callback(const GoalHandleFibonacci::WrappedResult &result) {
     switch (result.code) {
+    // ResultCode is already reserved (SUCCEEDED, ABORTED, CANCELED)
     case rclcpp_action::ResultCode::SUCCEEDED:
       break;
     case rclcpp_action::ResultCode::ABORTED:

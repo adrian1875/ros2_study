@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001671] (-) JobUnselected: {'identifier': 'cpp_action_pkg'}
+[0.001920] (-) JobUnselected: {'identifier': 'cpp_param_pkg'}
+[0.002435] (-) JobUnselected: {'identifier': 'cpp_service_pkg'}
+[0.003160] (-) JobUnselected: {'identifier': 'cpp_service_tutorial'}
+[0.003359] (-) JobUnselected: {'identifier': 'cpp_topic_pkg'}
+[0.003608] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.006042] (-) JobUnselected: {'identifier': 'gcamp_gazebo'}
+[0.006623] (-) JobUnselected: {'identifier': 'logging_rclpy_example'}
+[0.006830] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.007398] (-) JobUnselected: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.007593] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.007723] (-) JobUnselected: {'identifier': 'py_action_pkg'}
+[0.008090] (-) JobUnselected: {'identifier': 'py_first_pkg'}
+[0.008436] (-) JobUnselected: {'identifier': 'py_service_pkg'}
+[0.008614] (-) JobUnselected: {'identifier': 'py_topic_pkg'}
+[0.008782] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.009045] (-) JobUnselected: {'identifier': 'rqt_example'}
+[0.009212] (-) JobUnselected: {'identifier': 'testbot_description'}
+[0.009495] (-) JobUnselected: {'identifier': 'tf2_rclcpp_example'}
+[0.009687] (-) JobUnselected: {'identifier': 'tf2_rclpy_example'}
+[0.010188] (-) JobUnselected: {'identifier': 'time_rclcpp_example'}
+[0.010453] (-) JobUnselected: {'identifier': 'time_rclpy_example'}
+[0.010692] (-) JobUnselected: {'identifier': 'topic_service_action_rclcpp_example'}
+[0.010901] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.011441] (cpp_first_pkg) JobQueued: {'identifier': 'cpp_first_pkg', 'dependencies': OrderedDict()}
+[0.012106] (cpp_first_pkg) JobStarted: {'identifier': 'cpp_first_pkg'}
+[0.041328] (cpp_first_pkg) JobProgress: {'identifier': 'cpp_first_pkg', 'progress': 'cmake'}
+[0.043964] (cpp_first_pkg) JobProgress: {'identifier': 'cpp_first_pkg', 'progress': 'build'}
+[0.046945] (cpp_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/gcamp_ros2_ws/build/cpp_first_pkg', '--', '-j6', '-l6'], 'cwd': '/home/ubuntu/gcamp_ros2_ws/build/cpp_first_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'e2a943c97987'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/.ssh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:67ba4459-6d95-4b6d-8a39-ab50e6d6c32c'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/ubuntu/gcamp_ros2_ws/build/cpp_first_pkg'), ('PYTHONPATH', '/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.099221] (-) TimerEvent: {}
+[0.170546] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lifecycle_node\x1b[0m\n'}
+[0.180233] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_oop_node\x1b[0m\n'}
+[0.187806] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_loop_node\x1b[0m\n'}
+[0.191221] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_node\x1b[0m\n'}
+[0.200944] (-) TimerEvent: {}
+[0.280225] (cpp_first_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_node.dir/src/lifecycle.cpp.o\x1b[0m\n'}
+[0.296888] (cpp_first_pkg) StdoutLine: {'line': b'[ 30%] Built target simple_without_oop_node\n'}
+[0.315269] (-) TimerEvent: {}
+[0.331889] (cpp_first_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/simple_oop_node.dir/src/simple_oop.cpp.o\x1b[0m\n'}
+[0.349145] (cpp_first_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_node.dir/src/simple.cpp.o\x1b[0m\n'}
+[0.372328] (cpp_first_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/simple_loop_node.dir/src/simple_loop.cpp.o\x1b[0m\n'}
+[0.415755] (-) TimerEvent: {}
+[0.516501] (-) TimerEvent: {}
+[0.627749] (-) TimerEvent: {}
+[0.728652] (-) TimerEvent: {}
+[0.829533] (-) TimerEvent: {}
+[0.930339] (-) TimerEvent: {}
+[1.032595] (-) TimerEvent: {}
+[1.140461] (-) TimerEvent: {}
+[1.241481] (-) TimerEvent: {}
+[1.342287] (-) TimerEvent: {}
+[1.443299] (-) TimerEvent: {}
+[1.544783] (-) TimerEvent: {}
+[1.645654] (-) TimerEvent: {}
+[1.746550] (-) TimerEvent: {}
+[1.847479] (-) TimerEvent: {}
+[1.948635] (-) TimerEvent: {}
+[2.049619] (-) TimerEvent: {}
+[2.150496] (-) TimerEvent: {}
+[2.251451] (-) TimerEvent: {}
+[2.352488] (-) TimerEvent: {}
+[2.453353] (-) TimerEvent: {}
+[2.554158] (-) TimerEvent: {}
+[2.654935] (-) TimerEvent: {}
+[2.755808] (-) TimerEvent: {}
+[2.864214] (-) TimerEvent: {}
+[2.965428] (-) TimerEvent: {}
+[3.066291] (-) TimerEvent: {}
+[3.167169] (-) TimerEvent: {}
+[3.268143] (-) TimerEvent: {}
+[3.369190] (-) TimerEvent: {}
+[3.469969] (-) TimerEvent: {}
+[3.570733] (-) TimerEvent: {}
+[3.671817] (-) TimerEvent: {}
+[3.772547] (-) TimerEvent: {}
+[3.875045] (-) TimerEvent: {}
+[3.981706] (-) TimerEvent: {}
+[4.082765] (-) TimerEvent: {}
+[4.184195] (-) TimerEvent: {}
+[4.285183] (-) TimerEvent: {}
+[4.386362] (-) TimerEvent: {}
+[4.487241] (-) TimerEvent: {}
+[4.588409] (-) TimerEvent: {}
+[4.689907] (-) TimerEvent: {}
+[4.790905] (-) TimerEvent: {}
+[4.891769] (-) TimerEvent: {}
+[4.993067] (-) TimerEvent: {}
+[5.094140] (-) TimerEvent: {}
+[5.195047] (-) TimerEvent: {}
+[5.295964] (-) TimerEvent: {}
+[5.396891] (-) TimerEvent: {}
+[5.497762] (-) TimerEvent: {}
+[5.598663] (-) TimerEvent: {}
+[5.699615] (-) TimerEvent: {}
+[5.800539] (-) TimerEvent: {}
+[5.901986] (-) TimerEvent: {}
+[6.004469] (-) TimerEvent: {}
+[6.105575] (-) TimerEvent: {}
+[6.206531] (-) TimerEvent: {}
+[6.308327] (-) TimerEvent: {}
+[6.323822] (cpp_first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg/src/simple_oop.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.325102] (cpp_first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg/src/simple_oop.cpp:44:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdsddsdsdsdfdsdfsd\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.325572] (cpp_first_pkg) StderrLine: {'line': b'   44 |   \x1b[01;31m\x1b[Kdsddsdsdsdfdsdfsd\x1b[m\x1b[K\n'}
+[6.325972] (cpp_first_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.408359] (-) TimerEvent: {}
+[6.509187] (-) TimerEvent: {}
+[6.610111] (-) TimerEvent: {}
+[6.710965] (-) TimerEvent: {}
+[6.811942] (-) TimerEvent: {}
+[6.912793] (-) TimerEvent: {}
+[7.013765] (-) TimerEvent: {}
+[7.114691] (-) TimerEvent: {}
+[7.215872] (-) TimerEvent: {}
+[7.316687] (-) TimerEvent: {}
+[7.335432] (cpp_first_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable simple_node\x1b[0m\n'}
+[7.347046] (cpp_first_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable simple_loop_node\x1b[0m\n'}
+[7.416890] (-) TimerEvent: {}
+[7.521107] (-) TimerEvent: {}
+[7.621935] (-) TimerEvent: {}
+[7.722945] (-) TimerEvent: {}
+[7.823804] (-) TimerEvent: {}
+[7.889658] (cpp_first_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/simple_oop_node.dir/build.make:63: CMakeFiles/simple_oop_node.dir/src/simple_oop.cpp.o] Error 1\n'}
+[7.890703] (cpp_first_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_oop_node.dir/all] Error 2\n'}
+[7.891472] (cpp_first_pkg) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[7.910473] (cpp_first_pkg) StdoutLine: {'line': b'[ 80%] Built target simple_loop_node\n'}
+[7.922097] (cpp_first_pkg) StdoutLine: {'line': b'[ 80%] Built target simple_node\n'}
+[7.923968] (-) TimerEvent: {}
+[8.024984] (-) TimerEvent: {}
+[8.125860] (-) TimerEvent: {}
+[8.226755] (-) TimerEvent: {}
+[8.327633] (-) TimerEvent: {}
+[8.382782] (cpp_first_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable lifecycle_node\x1b[0m\n'}
+[8.428048] (-) TimerEvent: {}
+[8.529122] (-) TimerEvent: {}
+[8.630907] (-) TimerEvent: {}
+[8.731823] (-) TimerEvent: {}
+[8.762025] (cpp_first_pkg) StdoutLine: {'line': b'[ 90%] Built target lifecycle_node\n'}
+[8.764520] (cpp_first_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.770504] (cpp_first_pkg) CommandEnded: {'returncode': 2}
+[8.832102] (-) TimerEvent: {}
+[8.909608] (cpp_first_pkg) JobEnded: {'identifier': 'cpp_first_pkg', 'rc': 2}
+[8.913969] (-) EventReactorShutdown: {}

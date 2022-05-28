@@ -22,16 +22,20 @@ using TurningControl = custom_interfaces::srv::TurningControl;
 
 class RobotTurnServer : public rclcpp::Node {
 private:
+  // we make Service server receving control signal and topic Publisher moving robot  
   rclcpp::Service<TurningControl>::SharedPtr m_service;
   rclcpp::Publisher<Twist>::SharedPtr m_twist_pub;
-
+  // Twist is a massage
   Twist m_twist_msg;
 
 public:
   RobotTurnServer() : Node("robot_turn_server") {
     RCLCPP_WARN(get_logger(), "Robot Turn Server Started");
 
+    // make publisher
     m_twist_pub = create_publisher<Twist>("skidbot/cmd_vel", 10);
+    // make service using tamplate
+    // create_service<name of srv>('name of service server', every time respones run  callback function)
     m_service = create_service<TurningControl>(
         "turn_robot", std::bind(&RobotTurnServer::response_callback, this,
                                 std::placeholders::_1, std::placeholders::_2));

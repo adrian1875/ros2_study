@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (-) JobUnselected: {'identifier': 'cpp_action_pkg'}
+[0.000680] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.001185] (-) JobUnselected: {'identifier': 'cpp_param_pkg'}
+[0.001290] (-) JobUnselected: {'identifier': 'cpp_service_pkg'}
+[0.001393] (-) JobUnselected: {'identifier': 'cpp_service_tutorial'}
+[0.001496] (-) JobUnselected: {'identifier': 'cpp_topic_pkg'}
+[0.001597] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.001697] (-) JobUnselected: {'identifier': 'gcamp_gazebo'}
+[0.001819] (-) JobUnselected: {'identifier': 'logging_rclpy_example'}
+[0.001923] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.002026] (-) JobUnselected: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.002135] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.002237] (-) JobUnselected: {'identifier': 'py_first_pkg'}
+[0.002344] (-) JobUnselected: {'identifier': 'py_service_pkg'}
+[0.003101] (-) JobUnselected: {'identifier': 'py_topic_pkg'}
+[0.003205] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.003309] (-) JobUnselected: {'identifier': 'rqt_example'}
+[0.003411] (-) JobUnselected: {'identifier': 'testbot_description'}
+[0.003514] (-) JobUnselected: {'identifier': 'tf2_rclcpp_example'}
+[0.003619] (-) JobUnselected: {'identifier': 'tf2_rclpy_example'}
+[0.003725] (-) JobUnselected: {'identifier': 'time_rclcpp_example'}
+[0.004220] (-) JobUnselected: {'identifier': 'time_rclpy_example'}
+[0.004325] (-) JobUnselected: {'identifier': 'topic_service_action_rclcpp_example'}
+[0.004428] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.004534] (py_action_pkg) JobQueued: {'identifier': 'py_action_pkg', 'dependencies': OrderedDict([('custom_interfaces', '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces')])}
+[0.004649] (py_action_pkg) JobStarted: {'identifier': 'py_action_pkg'}
+[0.099045] (-) TimerEvent: {}
+[0.199801] (-) TimerEvent: {}
+[0.300390] (-) TimerEvent: {}
+[0.401040] (-) TimerEvent: {}
+[0.501676] (-) TimerEvent: {}
+[0.602345] (-) TimerEvent: {}
+[0.703125] (-) TimerEvent: {}
+[0.803767] (-) TimerEvent: {}
+[0.904414] (-) TimerEvent: {}
+[1.005055] (-) TimerEvent: {}
+[1.105771] (-) TimerEvent: {}
+[1.206401] (-) TimerEvent: {}
+[1.307025] (-) TimerEvent: {}
+[1.407701] (-) TimerEvent: {}
+[1.469546] (py_action_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg', '--editable', '--build-directory', '/home/ubuntu/gcamp_ros2_ws/build/py_action_pkg/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg'], 'cwd': '/home/ubuntu/gcamp_ros2_ws/build/py_action_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': 'e2a943c97987', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'COLCON_PREFIX_PATH': '/home/ubuntu/gcamp_ros2_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:edebc300-e2dd-4d08-8e69-3267d7434d7d', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'PWD': '/home/ubuntu/gcamp_ros2_ws/build/py_action_pkg', 'PYTHONPATH': '/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_first_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/ubuntu/gcamp_ros2_ws/build/py_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/gcamp_ros2_ws/install/custom_interfaces:/home/ubuntu/gcamp_ros2_ws/install/gcamp_gazebo:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_action_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_topic_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_service_tutorial:/home/ubuntu/gcamp_ros2_ws/install/cpp_param_pkg:/home/ubuntu/gcamp_ros2_ws/install/cpp_first_pkg'}, 'shell': False}
+[1.507992] (-) TimerEvent: {}
+[1.608725] (-) TimerEvent: {}
+[1.709251] (-) TimerEvent: {}
+[1.809816] (-) TimerEvent: {}
+[1.910357] (-) TimerEvent: {}
+[1.985029] (py_action_pkg) StdoutLine: {'line': b'running develop\n'}
+[2.010555] (-) TimerEvent: {}
+[2.111196] (-) TimerEvent: {}
+[2.211757] (-) TimerEvent: {}
+[2.298737] (py_action_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.299517] (py_action_pkg) StdoutLine: {'line': b'writing py_action_pkg.egg-info/PKG-INFO\n'}
+[2.299788] (py_action_pkg) StdoutLine: {'line': b'writing dependency_links to py_action_pkg.egg-info/dependency_links.txt\n'}
+[2.300319] (py_action_pkg) StdoutLine: {'line': b'writing entry points to py_action_pkg.egg-info/entry_points.txt\n'}
+[2.300901] (py_action_pkg) StdoutLine: {'line': b'writing requirements to py_action_pkg.egg-info/requires.txt\n'}
+[2.301319] (py_action_pkg) StdoutLine: {'line': b'writing top-level names to py_action_pkg.egg-info/top_level.txt\n'}
+[2.311939] (-) TimerEvent: {}
+[2.385936] (py_action_pkg) StdoutLine: {'line': b"reading manifest file 'py_action_pkg.egg-info/SOURCES.txt'\n"}
+[2.388028] (py_action_pkg) StdoutLine: {'line': b"writing manifest file 'py_action_pkg.egg-info/SOURCES.txt'\n"}
+[2.412131] (-) TimerEvent: {}
+[2.477318] (py_action_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[2.478070] (py_action_pkg) StdoutLine: {'line': b'Creating /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py-action-pkg.egg-link (link to .)\n'}
+[2.480306] (py_action_pkg) StdoutLine: {'line': b'Installing fibonacci_action_client script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.481076] (py_action_pkg) StdoutLine: {'line': b'Installing fibonacci_action_client_cancel script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.481880] (py_action_pkg) StdoutLine: {'line': b'Installing fibonacci_action_server script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.482216] (py_action_pkg) StdoutLine: {'line': b'Installing fibonacci_action_server_cancel script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.482971] (py_action_pkg) StdoutLine: {'line': b'Installing img_subscriber_node script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.483688] (py_action_pkg) StdoutLine: {'line': b'Installing maze_action_client script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.483936] (py_action_pkg) StdoutLine: {'line': b'Installing maze_action_server script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.484471] (py_action_pkg) StdoutLine: {'line': b'Installing odom_sub_node script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.485371] (py_action_pkg) StdoutLine: {'line': b'Installing robot_controller script to /home/ubuntu/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg\n'}
+[2.486055] (py_action_pkg) StdoutLine: {'line': b'\n'}
+[2.486299] (py_action_pkg) StdoutLine: {'line': b'Installed /home/ubuntu/gcamp_ros2_ws/build/py_action_pkg\n'}
+[2.486462] (py_action_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.512360] (-) TimerEvent: {}
+[2.550549] (py_action_pkg) CommandEnded: {'returncode': 0}
+[2.588421] (py_action_pkg) JobEnded: {'identifier': 'py_action_pkg', 'rc': 0}
+[2.592330] (-) EventReactorShutdown: {}

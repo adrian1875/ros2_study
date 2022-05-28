@@ -25,7 +25,9 @@ using TurningControl = custom_interfaces::srv::TurningControl;
 class RobotTurnClient : public rclcpp::Node
 {
 private:
+  // declare service Client
   rclcpp::Client<TurningControl>::SharedPtr m_client;
+  // request includes massage
   std::shared_ptr<TurningControl::Request> m_request;
 
 public:
@@ -33,10 +35,11 @@ public:
   {
     m_client = create_client<TurningControl>("turn_robot");
     m_request = std::make_shared<TurningControl::Request>();
-
+    // if request server is not exsist, client is waiting and print log
     while (!m_client->wait_for_service(1s))
       RCLCPP_INFO(get_logger(), "service not available, waiting again...");
 
+    // if you see this log client find server!!
     RCLCPP_INFO(get_logger(), "service available, waiting serice call");
   }
 
@@ -45,6 +48,8 @@ public:
   // float64 linear_vel_x
   // ---
   // bool success
+
+  // send request, return future 
   auto get_result_future(const int &time_in, const float &linear_x_in,
                          const float &angular_z_in)
   {
@@ -55,7 +60,8 @@ public:
     m_request->time_duration = time_in;
     m_request->linear_vel_x = linear_x_in;
     m_request->angular_vel_z = angular_z_in;
-
+    // async means 'asynchronous'
+    // before client sends request from server, client do something 
     return m_client->async_send_request(m_request);
   }
 };
@@ -64,6 +70,7 @@ int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);
 
+  // exception handling of paremeter
   if (argc != 4)
   {
     RCLCPP_INFO(
@@ -72,11 +79,17 @@ int main(int argc, char **argv)
     return 1;
   }
 
+  // node include basic_service_client 
   auto basic_service_client = std::make_shared<RobotTurnClient>();
+
+  // requset should call main 
+  // call function is 'get_result_future'
+  // result is async_send_request(m_request);
   auto result = basic_service_client->get_result_future(
       atoi(argv[1]), atof(argv[2]), atof(argv[3]));
 
   // Wait for the result.
+  // spin_until_future_complete(node, future)
   if (rclcpp::spin_until_future_complete(basic_service_client, result) ==
       rclcpp::executor::FutureReturnCode::SUCCESS)
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Result : %s",

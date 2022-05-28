@@ -20,7 +20,7 @@ class TwistPub : public rclcpp::Node {
 private:
   // topic publisher has a type, type name is 'geometry_msgs::msg::Twist' using tamplate
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr m_pub;
-  // imer is required to periodically publish.
+  // timer is required to periodically publish.
   rclcpp::TimerBase::SharedPtr m_timer;
 
   geometry_msgs::msg::Twist m_twist_msg;
@@ -69,6 +69,7 @@ int main(int argc, char **argv) {
   while ((t_now - t_start).seconds() < stop_time) {
     t_now = twist_pub->now();  
     // rclcpp::spin_some(twist_pub); <- recommend
+    // rclcpp::spin_some: Create a default single-threaded executor and execute any immediately available work. 
     twist_pub->move_robot();
     // if you print log on monitor, you should use get_logger in RCLCPP_INFO.
     RCLCPP_INFO(twist_pub->get_logger(), "%f Seconds Passed", (t_now - t_start).seconds());

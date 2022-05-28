@@ -1,0 +1,8 @@
+[01m[K/home/ubuntu/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg/src/simple_oop.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg/src/simple_oop.cpp:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdsddsdsdsdfdsdfsd[m[K’ was not declared in this scope
+   44 |   [01;31m[Kdsddsdsdsdfdsdfsd[m[K
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/simple_oop_node.dir/build.make:63: CMakeFiles/simple_oop_node.dir/src/simple_oop.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_oop_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

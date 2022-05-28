@@ -18,6 +18,7 @@
 class Talker : public rclcpp::Node {
 private:
   // make timmer for periodically running node  
+  // SharedPtr means access using pointer in TimerBase
   rclcpp::TimerBase::SharedPtr m_timer;
   size_t m_count;
 
@@ -41,7 +42,6 @@ int main(int argc, char **argv) {
   rclcpp::init(argc, argv);
 
   // spin은 Node내부에 정해진 timer에 따라 Node를 주기적으로 동작, 갱신시켜줍니다.
-  dsddsdsdsdfdsdfsd
   rclcpp::spin(std::make_shared<Talker>());
   rclcpp::shutdown();
   return 0;

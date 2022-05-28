@@ -27,7 +27,7 @@ int main(int argc, char **argv) {
 
   // similar to arduino loop function(periodically run node)
   while (rclcpp::ok()) {
-    RCLCPP_INFO(node->get_logger(), "Simple Loop Node");
+    RCLCPP_INFO(node->get_logger(), "Simple Loop Node");  // get_logger() for debug
     // this part update node
     // similar to python spin_once
     rclcpp::spin_some(node);

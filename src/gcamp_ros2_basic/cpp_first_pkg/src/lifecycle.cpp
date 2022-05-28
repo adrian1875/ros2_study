@@ -28,6 +28,7 @@ private:
   }
 
 public:
+  // constructor
   Talker() : Node("simple_oop_node"), m_count(0) {
     RCLCPP_WARN(this->get_logger(), "Node Constructor");
 
@@ -49,7 +50,7 @@ int main(int argc, char **argv) {
 
   RCLCPP_INFO(talker->get_logger(), "==== Spin Done ====");
 
-  rclcpp::shutdown();  // at this commend shutdown relcpp, so if you write publisher in destructor it will not working
+  rclcpp::shutdown();  // this commend do shutdown relcpp, so if you write publisher in destructor it will not working
 
   std::cout << "==== After Shutdown ====" << std::endl;
 

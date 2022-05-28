@@ -36,11 +36,15 @@ public:
     //   accepting a goal
     //    Calls to 'execute' are made in an available thread from a pool of
     //    four.
+    
+    // rclcpp_action is included in 'rclcpp_action/rclcpp_action.hpp', so 1st paremeter is required 'this'
     m_action_server = rclcpp_action::create_server<Fibonacci>(
         this, "fibonacci",
-        std::bind(&FBActionServer::handle_goal, this, _1, _2),
-        std::bind(&FBActionServer::handle_cancel, this, _1),
-        std::bind(&FBActionServer::handle_accepted, this, _1));
+        std::bind(&FBActionServer::handle_goal, this, _1, _2),  // goal request callback
+        std::bind(&FBActionServer::handle_cancel, this, _1),  // cancel callback
+        // If you want to use multi-threading, don't bind immediately, wrap it around the thread once, and then bind it.
+        // you don't use multi-threading, handle_accepted will change to execute
+        std::bind(&FBActionServer::handle_accepted, this, _1));  // execute callback 
 
     RCLCPP_INFO(get_logger(),
                 "FB Action Server Created Waiting for client... ");
@@ -51,7 +55,7 @@ public:
               std::shared_ptr<const Fibonacci::Goal> goal) {
     RCLCPP_INFO(get_logger(), "Got goal request with order %d", goal->order);
 
-    (void)uuid;
+    (void)uuid;  // id of individual goal requests
 
     // Let's reject sequences that are over 9000
     if (goal->order > 9000) {
